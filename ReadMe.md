@@ -8,7 +8,7 @@ This model is implemented based on PoseNet architecture proposed in the ICCV 201
 - Numpy >= 1.15
 - Python >=3.5.0
 - KingsCollege Dataset [download](https://www.repository.cam.ac.uk/bitstream/handle/1810/251342/KingsCollege.zip) and extract it in the **data/datasets/** directory.
-- download pretrained googlenet weights and place it in the **pretrained_models**
+- Download pretrained googlenet weights and place it in the **pretrained_models**
 ```python
 wget https://vision.in.tum.de/webarchive/hazirbas/poselstm-pytorch/places-googlenet.pickle
 ```
