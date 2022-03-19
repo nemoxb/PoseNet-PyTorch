@@ -18,11 +18,10 @@ wget https://vision.in.tum.de/webarchive/hazirbas/poselstm-pytorch/places-google
 python train.py --epochs 200 --learning_rate 0.0001 --batch_size 75 --save_freq 20
 ```
 
-### Evaluate
+### Evaluate with Your checkpoints
 ```python
-python test.py --epochs 981 
+python test.py --epochs 981 --batch_size 75
 ```
-checkpoints_981.pth is a saved checkpoints
 
 ### Results
 Epoch = 1000
@@ -35,4 +34,4 @@ Checkpoints = 981
 | 2.967 m               | 2.886 degrees            |
 
 #### Training Losses
-![training losses](Train_Losses.png)
+<img src="Train_Losses.png" width="300">
